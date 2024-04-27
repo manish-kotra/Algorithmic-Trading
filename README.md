@@ -6,6 +6,7 @@ This repository contains the implementation of an algorithmic trading strategy s
 ## Repository Structure
 - `webscrapper_bitcoinfocharts.ipynb`: Script for scraping Bitcoin-related metrics.
 - `bitcoin_data_bitcoininfocharts.csv`: Bitcoin metrics data.
+- `webscrapper_finviz.ipynb`: Script for scraping News headlines from finviz.com.
 - `webscrapper_googlenews.ipynb`: Script for scraping Google News headlines for sentiment analysis.
 - `bitcoin_news_data.csv`: News headlines data.
 - `bitcoin_news_data_sentiment_vader.csv`: Sentiment analysis results using VADER.
@@ -35,6 +36,7 @@ This repository contains the implementation of an algorithmic trading strategy s
 - Demonstrated the importance of sentiment analysis in predicting market movements.
 
 ## Installation
-To run the notebooks, you need to install the required libraries:
+To run the notebooks, you need to install the required libraries. THe following command will create a new conda environment with all the required libraries:
 ```bash
-pip install -r packages_list.txt
+ conda env create -f environment.yml
+
